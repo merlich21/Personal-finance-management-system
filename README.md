@@ -50,13 +50,13 @@
 
 ```sh
 git clone https://github.com/merlich21/Personal-finance-management-system.git
-cd personal-finance-management-system
+cd Personal-finance-management-system
 ```
 
 **3. Запустить JAR-файл:**
 
 ```sh
-java -jar Personal-finance-management-system
+java -jar personal-finance-management-system
 ```
 
 **4. Следовать инструкциям на экране:**
