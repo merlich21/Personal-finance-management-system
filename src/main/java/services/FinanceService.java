@@ -251,6 +251,7 @@ public class FinanceService {
      * @return Строка с бюджетным обзором для заданного типа транзакций.
      */
     public String getBudgetByType(User user, TransactionType type) {
+
         Wallet wallet = user.getWallet();
         StringBuilder overview = new StringBuilder();
 
@@ -328,6 +329,7 @@ public class FinanceService {
      * @return Строка со списком всех транзакций.
      */
     public String getAllTransactions(User user) {
+
         Wallet wallet = user.getWallet();
         StringBuilder transactionsList = new StringBuilder();
 
@@ -383,6 +385,7 @@ public class FinanceService {
      * @return Строка со списком транзакций указанного типа.
      */
     public String getTransactionsByType(User user, TransactionType type) {
+
         Wallet wallet = user.getWallet();
         StringBuilder transactionsList = new StringBuilder();
 
@@ -423,6 +426,7 @@ public class FinanceService {
      * @return Строка с состоянием бюджета для указанных категорий.
      */
     public String getCategoryBudget(User user, List<String> categories) {
+
         Wallet wallet = user.getWallet();
         StringBuilder overview = new StringBuilder();
 
@@ -483,6 +487,7 @@ public class FinanceService {
      * @return Строка с описанием транзакций для указанных категорий.
      */
     public String getCategoryTransactions(User user, List<String> categories) {
+
         Wallet wallet = user.getWallet();
         StringBuilder transactionsList = new StringBuilder();
 

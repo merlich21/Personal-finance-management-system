@@ -27,14 +27,14 @@
 **2. Склонировать репозиторий и перейти в каталог проекта:**
 
 ```sh
-git clone https://github.com/ChertChill/finance-management-app.git
-cd finance-management-app
+git clone https://github.com/merlich21/Personal-finance-management-system.git
+cd Personal-finance-management-system
 ```
 
 **3. Запустить JAR-файл:**
 
 ```sh
-java -jar finance-management-app.jar
+java -jar Personal-finance-management-system
 ```
 
 **4. Следовать инструкциям на экране:**

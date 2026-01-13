@@ -8,6 +8,7 @@ import java.util.*;
  * Хранит данные о пользователе, такие как имя пользователя, хэш пароля и его кошелек.
  */
 public class User implements Serializable {
+
     private final String username;
     private final String passwordHash;
     private final Wallet wallet;
