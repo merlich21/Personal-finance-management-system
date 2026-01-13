@@ -11,7 +11,6 @@ import java.util.*;
  * Хранит баланс кошелька, список транзакций и бюджеты по категориям.
  */
 public class Wallet implements Serializable {
-
     private BigDecimal balance;
     private final List<Transaction> transactions;
     private final Map<String, BigDecimal> budgets;

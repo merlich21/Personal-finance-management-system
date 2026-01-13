@@ -11,7 +11,6 @@ import java.io.IOException;
  * Реализует регистрацию и вход пользователей в систему.
  */
 public class AuthService {
-
     private Map<String, User> users;
     private static final String STORAGE_FILE = "users.dat";
 

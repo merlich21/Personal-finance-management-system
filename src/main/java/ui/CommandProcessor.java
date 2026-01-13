@@ -13,7 +13,6 @@ import java.util.Scanner;
  * Обрабатывает команды пользователя и выполняет соответствующие действия.
  */
 public class CommandProcessor {
-
     private final AuthService authService;
     private final FinanceService financeService;
     private User currentUser;
